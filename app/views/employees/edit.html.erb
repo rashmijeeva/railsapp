@@ -1,0 +1,35 @@
+<%= form_for @employee do |f| %>
+<div>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</div>
+<div>
+  <%= f.label :empid %>
+  <%= f.number_field :empid %>
+</div>
+<div>
+  <%= f.label :designation %>
+  <%= f.text_field :designation %>
+</div>
+<div>
+  <%= f.label :salary %>
+  <%= f.number_field :salary %>
+</div>
+<div>
+  <%= f.label :address %>
+  <%= f.text_field :address %>
+</div>
+<div>
+  <%= f.label :state %>
+  <%= f.text_field :state %>
+</div>
+<div>
+  <%= f.label :city %>
+  <%= f.text_field :city %>
+</div>
+
+
+<div>
+  <%= f.submit %>
+</div>
+<% end %>
